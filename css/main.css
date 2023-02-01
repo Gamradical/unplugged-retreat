@@ -601,6 +601,10 @@ FAQ page
     margin-bottom: 20px;
   }
 
+  p .features-item-description {
+    font-size: 1.125em;
+  }
+
   .features article {
     display: flex;
     justify-content: center;
@@ -609,9 +613,14 @@ FAQ page
     flex-basis: 50%;
   }
 
-.features .features-item-description {
-  width: 62%;
-}
+  .features i {
+  	font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
+  .features .features-item-description {
+    width: 62%;
+  }
 
 /*Reviews*/
 
@@ -780,8 +789,14 @@ header {
   }
 
   .features article {
-    flex-basis: 30%;
+    flex-basis: 33%;
+    margin-bottom: 62px;
     }
+
+  .content-wrapper {
+    margin-bottom: 38px;
+  }
+
 
     /* Reviews */
     .reviews article div {
