@@ -103,6 +103,7 @@ body {
 ul,
 ol {
   list-style: none;
+  margin: 0;
 }
 
 a {
@@ -114,6 +115,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -202,8 +204,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 0;
-  margin: 0;
 }
 
 header nav ul li {
@@ -221,6 +221,11 @@ footer p {
   margin: 0;
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
 footer .contact {
   margin-bottom: 50px;
 }
@@ -231,15 +236,18 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -266,8 +274,7 @@ footer .copyright {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  line-height: 1.25;
-  margin: 0;
+  line-height: 1.2;
 }
 
 /*-- Aside --*/
@@ -278,10 +285,6 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
-}
-
-aside .content-wrapper {
-  margin-top: 0;
 }
 
 aside .form {
@@ -341,7 +344,10 @@ input[type=button] {
   text-align: center;
   margin: 0;
 }
-
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 /*-- Reviews --*/
 
 .reviews {
@@ -591,7 +597,7 @@ FAQ page
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 35%;
+    width: 40%;
     margin: 0;
   }
 
@@ -599,10 +605,6 @@ FAQ page
 
   .features h2 {
     margin-bottom: 20px;
-  }
-
-  p .features-item-description {
-    font-size: 1.125em;
   }
 
   .features article {
@@ -614,8 +616,7 @@ FAQ page
   }
 
   .features i {
-  	font-size: 3.75em;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .features .features-item-description {
@@ -663,13 +664,17 @@ FAQ page
 
   footer h4 {
     font-size: 1.5em;
-    margin-bottom: 36px;
+    margin-bottom: 40px;
   }
 
   footer p {
-    line-height: 1.3;
+    line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
   footer .copyright {
     width: 100%;
   }
@@ -758,7 +763,7 @@ header {
 
   p {
     font-size: 1.125em;
-    line-height: 1.4;
+    line-height: 1.333;
   }
 
   /* Hero Area */
@@ -776,7 +781,7 @@ header {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-      width:40%;
+      width: 30%;
   }
 
   .form-description p {
@@ -790,13 +795,7 @@ header {
 
   .features article {
     flex-basis: 33%;
-    margin-bottom: 62px;
     }
-
-  .content-wrapper {
-    margin-bottom: 38px;
-  }
-
 
     /* Reviews */
     .reviews article div {
