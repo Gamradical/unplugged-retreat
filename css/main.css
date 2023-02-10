@@ -263,7 +263,7 @@ footer .copyright {
 
 
 .hero-area {
-  background: url('../assets/jake-melara-30679-unsplash.jpg');
+  background: url('../Assets/jake-melara-30679-unsplash.jpg');
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -324,7 +324,7 @@ input[type=button] {
 /*-- Features --*/
 
 .features {
-  background-image: url('../assets/rawpixel-800820-unsplash1.jpg');
+  background-image: url('../Assets/rawpixel-800820-unsplash1.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
